@@ -1,0 +1,142 @@
+body {
+  background-color: #0d192c;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.satauri {
+  color: white;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 8.85px;
+  margin-top: 24.64px;
+}
+.satauri:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.paragrapi {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #8bacd9;
+}
+
+.container-inner {
+  padding: 24px;
+  background-color: #15263f;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.ethereum {
+  color: #00fff8;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.clock {
+  color: #8bacd9;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.ethereum-div {
+  display: flex;
+  gap: 6.48px;
+  align-items: center;
+}
+
+.clock-div {
+  display: flex;
+  gap: 6.48px;
+  align-items: center;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+hr {
+  margin-top: 24px;
+  color: #2e405a;
+  margin-bottom: 22px;
+}
+.surati {
+  width: 33px;
+  height: 33px;
+  top: 531px;
+  left: 24px;
+  margin-right: 16px;
+}
+.creationof {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+  margin-right: 5px;
+}
+.julius {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+.julius:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+.dasasruli-div {
+  display: flex;
+}
+.div-line {
+  height: 1px;
+  width: 100%;
+  background: #2e405a;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.eyebox {
+  width: 100%;
+  height: 350px;
+  background-color: rgba(0, 255, 248, 0.5);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  display: none;
+
+}
+.colorbox:hover .eyebox{
+  cursor: pointer;
+  display: flex;
+  
+}
+.colorbox{
+  position: relative;
+}
